@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Test-Suite name="UiPath Project - Test Automation" total="11" passed="9" failures="2" execution-date="10/01/2020 20:32:22" total-time="00:01:34">
+  <Result>
+    <TestScenario>Login</TestScenario>
+    <TestName>Login</TestName>
+    <Started>10/01/2020 20:32:11</Started>
+    <Ended>10/01/2020 20:32:22</Ended>
+    <Status>Pass</Status>
+  </Result>
+  <Result>
+    <TestScenario>Add site Manager</TestScenario>
+    <TestName>AddSiteManager</TestName>
+    <Started>10/01/2020 20:32:43</Started>
+    <Ended>10/01/2020 20:33:02</Ended>
+    <Status>Failed</Status>
+  </Result>
+  <Result>
+    <TestScenario>Login</TestScenario>
+    <TestName>Login - SystemUser</TestName>
+    <Started>10/01/2020 20:33:33</Started>
+    <Ended>10/01/2020 20:33:48</Ended>
+    <Status>Pass</Status>
+  </Result>
+  <Result>
+    <TestScenario>Verify the Site Management Module For HOA</TestScenario>
+    <TestName>VrifyHoADefaultModule</TestName>
+    <Started>10/01/2020 20:33:48</Started>
+    <Ended>10/01/2020 20:33:49</Ended>
+    <Status>Passed</Status>
+  </Result>
+  <Result>
+    <TestScenario>Verify the User management Module For HOA</TestScenario>
+    <TestName>VrifyHoADefaultModule</TestName>
+    <Started>10/01/2020 20:33:50</Started>
+    <Ended>10/01/2020 20:33:51</Ended>
+    <Status>Passed</Status>
+  </Result>
+  <Result>
+    <TestScenario>Verify the White-List Management Module For HOA</TestScenario>
+    <TestName>VrifyHoADefaultModule</TestName>
+    <Started>10/01/2020 20:33:52</Started>
+    <Ended>10/01/2020 20:33:53</Ended>
+    <Status>Passed</Status>
+  </Result>
+  <Result>
+    <TestScenario>Verify the Data Sharing Module For HOA</TestScenario>
+    <TestName>VrifyHoADefaultModule</TestName>
+    <Started>10/01/2020 20:33:54</Started>
+    <Ended>10/01/2020 20:33:54</Ended>
+    <Status>Passed</Status>
+  </Result>
+  <Result>
+    <TestScenario>Verify the License Plate Query Module For HOA</TestScenario>
+    <TestName>VrifyHoADefaultModule</TestName>
+    <Started>10/01/2020 20:33:56</Started>
+    <Ended>10/01/2020 20:34:01</Ended>
+    <Status>Passed</Status>
+  </Result>
+  <Result>
+    <TestScenario>Login</TestScenario>
+    <TestName>Login - SystemUser</TestName>
+    <Started>10/01/2020 20:34:33</Started>
+    <Ended>10/01/2020 20:34:41</Ended>
+    <Status>Pass</Status>
+  </Result>
+  <Result>
+    <TestScenario>Verify User level</TestScenario>
+    <TestName>Verify User level</TestName>
+    <Started>10/01/2020 20:34:42</Started>
+    <Ended>10/01/2020 20:34:44</Ended>
+    <Status>Pass</Status>
+  </Result>
+  <Result>
+    <TestScenario>Dash board verification</TestScenario>
+    <TestName>VerifyDashBoard</TestName>
+    <Started>10/01/2020 20:34:44</Started>
+    <Ended>10/01/2020 20:35:15</Ended>
+    <Status>Failed</Status>
+  </Result>
+</Test-Suite>
