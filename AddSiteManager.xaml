@@ -1,6 +1,6 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="AddSiteManager" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1372.8,5944.8" sap2010:WorkflowViewState.IdRef="AddSiteManager_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data" xmlns:t="clr-namespace:TestReportGenerator;assembly=TestReportGenerator" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uta="clr-namespace:UiPath.Testing.Activities;assembly=UiPath.Testing.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="AddSiteManager" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="953.6,2847.2" sap2010:WorkflowViewState.IdRef="AddSiteManager_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data" xmlns:t="clr-namespace:TestReportGenerator;assembly=TestReportGenerator" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uta="clr-namespace:UiPath.Testing.Activities;assembly=UiPath.Testing.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
-    <scg:List x:TypeArguments="x:String" Capacity="23">
+    <scg:List x:TypeArguments="x:String" Capacity="27">
       <x:String>System.Activities</x:String>
       <x:String>System.Activities.Statements</x:String>
       <x:String>System.Activities.Expressions</x:String>
@@ -24,6 +24,10 @@
       <x:String>System.Windows.Markup</x:String>
       <x:String>UiPath.Excel</x:String>
       <x:String>System.Xml.Serialization</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Activities.DynamicUpdate</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Runtime.InteropServices</x:String>
     </scg:List>
   </TextExpression.NamespacesForImplementation>
   <TextExpression.ReferencesForImplementation>
@@ -53,7 +57,7 @@
       <AssemblyReference>System.ServiceModel</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="AddSiteManager" sap:VirtualizedContainerService.HintSize="1383.2,5780" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="AddSiteManager" sap:VirtualizedContainerService.HintSize="964,2682.4" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="sd:DataTable" Name="ReadOut" />
     </Sequence.Variables>
@@ -62,27 +66,27 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <t:StartTest TestCase="{x:Null}" DisplayName="Start test" sap:VirtualizedContainerService.HintSize="1341.6,22.4" sap2010:WorkflowViewState.IdRef="StartTest_1" ScenarioName="Add site Manager" Status="STARTED" />
-    <ui:ReadRange AddHeaders="True" DataTable="[ReadOut]" DisplayName="Read Range" sap:VirtualizedContainerService.HintSize="1341.6,88" sap2010:WorkflowViewState.IdRef="ReadRange_1" SheetName="AddSiteManager" WorkbookPath="Read.xlsx">
+    <t:StartTest TestCase="{x:Null}" DisplayName="Start test" sap:VirtualizedContainerService.HintSize="922.4,22.4" sap2010:WorkflowViewState.IdRef="StartTest_1" ScenarioName="Add site Manager" Status="STARTED" />
+    <ui:ReadRange AddHeaders="True" DataTable="[ReadOut]" DisplayName="Read Range" sap:VirtualizedContainerService.HintSize="922.4,88" sap2010:WorkflowViewState.IdRef="ReadRange_1" SheetName="AddSiteManager" WorkbookPath="Read.xlsx">
       <ui:ReadRange.Range>
         <InArgument x:TypeArguments="x:String">
           <Literal x:TypeArguments="x:String" Value="" />
         </InArgument>
       </ui:ReadRange.Range>
     </ui:ReadRange>
-    <ui:ForEachRow CurrentIndex="{x:Null}" DataTable="[ReadOut]" DisplayName="For Each Row" sap:VirtualizedContainerService.HintSize="1341.6,5496.8" sap2010:WorkflowViewState.IdRef="ForEachRow_1">
+    <ui:ForEachRow CurrentIndex="{x:Null}" DataTable="[ReadOut]" DisplayName="For Each Row" sap:VirtualizedContainerService.HintSize="922.4,2399.2" sap2010:WorkflowViewState.IdRef="ForEachRow_1">
       <ui:ForEachRow.Body>
         <ActivityAction x:TypeArguments="sd:DataRow">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="sd:DataRow" Name="row" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="1292,5348" sap2010:WorkflowViewState.IdRef="Sequence_2">
+          <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="872.8,2250.4" sap2010:WorkflowViewState.IdRef="Sequence_2">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="1250.4,5255.2" sap2010:WorkflowViewState.IdRef="TryCatch_1">
+            <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="831.2,2157.6" sap2010:WorkflowViewState.IdRef="TryCatch_1">
               <TryCatch.Variables>
                 <Variable x:TypeArguments="x:Boolean" Name="Available" />
               </TryCatch.Variables>
@@ -498,7 +502,10 @@
                 </Catch>
               </TryCatch.Catches>
               <TryCatch.Finally>
-                <Sequence sap:VirtualizedContainerService.HintSize="794.4,1188" sap2010:WorkflowViewState.IdRef="Sequence_10">
+                <Sequence sap:VirtualizedContainerService.HintSize="794.4,1926.4" sap2010:WorkflowViewState.IdRef="Sequence_10">
+                  <Sequence.Variables>
+                    <Variable x:TypeArguments="x:Boolean" Name="OK" />
+                  </Sequence.Variables>
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -590,9 +597,9 @@
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
                   </ui:CommentOut>
-                  <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="752.8,52.8" sap2010:WorkflowViewState.IdRef="CommentOut_2">
+                  <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="752.8,52.8" sap2010:WorkflowViewState.IdRef="CommentOut_3">
                     <ui:CommentOut.Body>
-                      <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="375.2,200" sap2010:WorkflowViewState.IdRef="Sequence_14">
+                      <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="375.2,200" sap2010:WorkflowViewState.IdRef="Sequence_15">
                         <sap:WorkflowViewStateService.ViewState>
                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
                             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -619,6 +626,78 @@
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
                   </ui:CommentOut>
+                  <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'IMG'" sap:VirtualizedContainerService.HintSize="752.8,107.2" sap2010:WorkflowViewState.IdRef="Click_6" KeyModifiers="None" MouseButton="BTN_LEFT">
+                    <ui:Click.CursorPosition>
+                      <ui:CursorPosition Position="Center">
+                        <ui:CursorPosition.OffsetX>
+                          <InArgument x:TypeArguments="x:Int32" />
+                        </ui:CursorPosition.OffsetX>
+                        <ui:CursorPosition.OffsetY>
+                          <InArgument x:TypeArguments="x:Int32" />
+                        </ui:CursorPosition.OffsetY>
+                      </ui:CursorPosition>
+                    </ui:Click.CursorPosition>
+                    <ui:Click.Target>
+                      <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="5d06d561-2ed3-4871-b767-11d46c2dc590" InformativeScreenshot="5e38dc3a3050f16a78bdb6ae6d3b31f7" Selector="&lt;html app='chrome.exe' title='Sites &amp;gt; Add Site' /&gt;&lt;webctrl css-selector='body&amp;gt;form&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;table&amp;gt;tbody&amp;gt;tr&amp;gt;td&amp;gt;div&amp;gt;img' parentid='whole' tableCol='3' tag='IMG' /&gt;">
+                        <ui:Target.TimeoutMS>
+                          <InArgument x:TypeArguments="x:Int32" />
+                        </ui:Target.TimeoutMS>
+                        <ui:Target.WaitForReady>
+                          <InArgument x:TypeArguments="ui:WaitForReady" />
+                        </ui:Target.WaitForReady>
+                      </ui:Target>
+                    </ui:Click.Target>
+                  </ui:Click>
+                  <ui:UiElementExists DisplayName="Element Exists 'INPUT  btnImgControl_0'" Exists="[OK]" sap:VirtualizedContainerService.HintSize="752.8,107.2" sap2010:WorkflowViewState.IdRef="UiElementExists_4">
+                    <ui:UiElementExists.Target>
+                      <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="6e01dd49-a3c2-4ace-8f84-ebba25f77035" InformativeScreenshot="7dc89ed6e20c5740982e7b369d97076a" Selector="&lt;html app='chrome.exe' title='Sites &amp;gt; Add Site' /&gt;&lt;webctrl id='btnImgControl_0' tag='INPUT' type='button' /&gt;">
+                        <ui:Target.TimeoutMS>
+                          <InArgument x:TypeArguments="x:Int32" />
+                        </ui:Target.TimeoutMS>
+                        <ui:Target.WaitForReady>
+                          <InArgument x:TypeArguments="ui:WaitForReady" />
+                        </ui:Target.WaitForReady>
+                      </ui:Target>
+                    </ui:UiElementExists.Target>
+                  </ui:UiElementExists>
+                  <If Condition="[OK=True]" sap:VirtualizedContainerService.HintSize="752.8,256.8" sap2010:WorkflowViewState.IdRef="If_7">
+                    <If.Then>
+                      <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'INPUT  btnImgControl_0'" sap:VirtualizedContainerService.HintSize="333.6,107.2" sap2010:WorkflowViewState.IdRef="Click_7" KeyModifiers="None" MouseButton="BTN_LEFT">
+                        <ui:Click.CursorPosition>
+                          <ui:CursorPosition Position="Center">
+                            <ui:CursorPosition.OffsetX>
+                              <InArgument x:TypeArguments="x:Int32" />
+                            </ui:CursorPosition.OffsetX>
+                            <ui:CursorPosition.OffsetY>
+                              <InArgument x:TypeArguments="x:Int32" />
+                            </ui:CursorPosition.OffsetY>
+                          </ui:CursorPosition>
+                        </ui:Click.CursorPosition>
+                        <ui:Click.Target>
+                          <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="5c413c3b-f63b-44f3-9924-d916e4eb26ca" InformativeScreenshot="1e1bd4eb1447b5787009c2e21a70cf88" Selector="&lt;html app='chrome.exe' title='Sites &amp;gt; Add Site' /&gt;&lt;webctrl id='btnImgControl_1' tag='INPUT' type='button' /&gt;">
+                            <ui:Target.TimeoutMS>
+                              <InArgument x:TypeArguments="x:Int32" />
+                            </ui:Target.TimeoutMS>
+                            <ui:Target.WaitForReady>
+                              <InArgument x:TypeArguments="ui:WaitForReady" />
+                            </ui:Target.WaitForReady>
+                          </ui:Target>
+                        </ui:Click.Target>
+                      </ui:Click>
+                    </If.Then>
+                  </If>
+                  <ui:CloseApplication DisplayName="Close Application 'DIV'" sap:VirtualizedContainerService.HintSize="752.8,107.2" sap2010:WorkflowViewState.IdRef="CloseApplication_2">
+                    <ui:CloseApplication.Target>
+                      <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="7df51ba9-e34b-4c81-807a-39dd90f2239c" InformativeScreenshot="c688242d8d2e510270efcf04c97f7fc9" Selector="&lt;html app='chrome.exe' title='Index' /&gt;&lt;webctrl css-selector='body&amp;gt;form&amp;gt;center&amp;gt;div&amp;gt;div' idx='2' parentid='backgroundIndex' tag='DIV' /&gt;">
+                        <ui:Target.TimeoutMS>
+                          <InArgument x:TypeArguments="x:Int32" />
+                        </ui:Target.TimeoutMS>
+                        <ui:Target.WaitForReady>
+                          <InArgument x:TypeArguments="ui:WaitForReady" />
+                        </ui:Target.WaitForReady>
+                      </ui:Target>
+                    </ui:CloseApplication.Target>
+                  </ui:CloseApplication>
                 </Sequence>
               </TryCatch.Finally>
             </TryCatch>

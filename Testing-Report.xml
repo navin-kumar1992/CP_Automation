@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Test-Suite name="UiPath Project - Test Automation" total="11" passed="9" failures="2" execution-date="10/01/2020 20:32:22" total-time="00:01:34">
+<Test-Suite name="UiPath Project - Test Automation" total="76" passed="55" failures="21" execution-date="10/01/2020 20:32:22" total-time="00:12:34">
   <Result>
     <TestScenario>Login</TestScenario>
     <TestName>Login</TestName>
@@ -76,5 +76,460 @@
     <Started>10/01/2020 20:34:44</Started>
     <Ended>10/01/2020 20:35:15</Ended>
     <Status>Failed</Status>
+  </Result>
+  <Result>
+    <TestScenario>Login</TestScenario>
+    <TestName>Login</TestName>
+    <Started>10/29/2020 13:25:04</Started>
+    <Ended>10/29/2020 13:25:16</Ended>
+    <Status>Pass</Status>
+  </Result>
+  <Result>
+    <TestScenario>Add site Manager</TestScenario>
+    <TestName>AddSiteManager</TestName>
+    <Started>10/29/2020 13:25:36</Started>
+    <Ended>10/29/2020 13:25:51</Ended>
+    <Status>Failed</Status>
+  </Result>
+  <Result>
+    <TestScenario>Login</TestScenario>
+    <TestName>Login - SystemUser</TestName>
+    <Started>10/29/2020 13:26:22</Started>
+    <Ended>10/29/2020 13:26:52</Ended>
+    <Status>Pass</Status>
+  </Result>
+  <Result>
+    <TestScenario>Verify the Site Management Module For HOA</TestScenario>
+    <TestName>VrifyHoADefaultModule</TestName>
+    <Started>10/29/2020 13:26:52</Started>
+    <Ended>10/29/2020 13:26:54</Ended>
+    <Status>Passed</Status>
+  </Result>
+  <Result>
+    <TestScenario>Verify the User management Module For HOA</TestScenario>
+    <TestName>VrifyHoADefaultModule</TestName>
+    <Started>10/29/2020 13:26:55</Started>
+    <Ended>10/29/2020 13:26:56</Ended>
+    <Status>Passed</Status>
+  </Result>
+  <Result>
+    <TestScenario>Verify the White-List Management Module For HOA</TestScenario>
+    <TestName>VrifyHoADefaultModule</TestName>
+    <Started>10/29/2020 13:26:57</Started>
+    <Ended>10/29/2020 13:26:57</Ended>
+    <Status>Passed</Status>
+  </Result>
+  <Result>
+    <TestScenario>Verify the Data Sharing Module For HOA</TestScenario>
+    <TestName>VrifyHoADefaultModule</TestName>
+    <Started>10/29/2020 13:26:58</Started>
+    <Ended>10/29/2020 13:26:59</Ended>
+    <Status>Passed</Status>
+  </Result>
+  <Result>
+    <TestScenario>Verify the License Plate Query Module For HOA</TestScenario>
+    <TestName>VrifyHoADefaultModule</TestName>
+    <Started>10/29/2020 13:27:00</Started>
+    <Ended>10/29/2020 13:27:23</Ended>
+    <Status>Passed</Status>
+  </Result>
+  <Result>
+    <TestScenario>Login</TestScenario>
+    <TestName>Login</TestName>
+    <Started>10/29/2020 13:30:57</Started>
+    <Ended>10/29/2020 13:31:08</Ended>
+    <Status>Pass</Status>
+  </Result>
+  <Result>
+    <TestScenario>Add site Manager</TestScenario>
+    <TestName>AddSiteManager</TestName>
+    <Started>10/29/2020 13:31:28</Started>
+    <Ended>10/29/2020 13:31:38</Ended>
+    <Status>Failed</Status>
+  </Result>
+  <Result>
+    <TestScenario>Login</TestScenario>
+    <TestName>Login - SystemUser</TestName>
+    <Started>10/29/2020 13:32:10</Started>
+    <Ended>10/29/2020 13:32:15</Ended>
+    <Status>Pass</Status>
+  </Result>
+  <Result>
+    <TestScenario>Verify the Site Management Module For HOA</TestScenario>
+    <TestName>VrifyHoADefaultModule</TestName>
+    <Started>10/29/2020 13:32:15</Started>
+    <Ended>10/29/2020 13:32:46</Ended>
+    <Status>Failed</Status>
+  </Result>
+  <Result>
+    <TestScenario>Verify the User management Module For HOA</TestScenario>
+    <TestName>VrifyHoADefaultModule</TestName>
+    <Started>10/29/2020 13:32:47</Started>
+    <Ended>10/29/2020 13:33:17</Ended>
+    <Status>Failed</Status>
+  </Result>
+  <Result>
+    <TestScenario>Verify the White-List Management Module For HOA</TestScenario>
+    <TestName>VrifyHoADefaultModule</TestName>
+    <Started>10/29/2020 13:33:18</Started>
+    <Ended>10/29/2020 13:33:48</Ended>
+    <Status>Failed</Status>
+  </Result>
+  <Result>
+    <TestScenario>Verify the Data Sharing Module For HOA</TestScenario>
+    <TestName>VrifyHoADefaultModule</TestName>
+    <Started>10/29/2020 13:33:49</Started>
+    <Ended>10/29/2020 13:34:19</Ended>
+    <Status>Failed</Status>
+  </Result>
+  <Result>
+    <TestScenario>Verify the License Plate Query Module For HOA</TestScenario>
+    <TestName>VrifyHoADefaultModule</TestName>
+    <Started>10/29/2020 13:34:20</Started>
+    <Ended>10/29/2020 13:34:50</Ended>
+    <Status>Failed</Status>
+  </Result>
+  <Result>
+    <TestScenario>Login</TestScenario>
+    <TestName>Login</TestName>
+    <Started>10/29/2020 13:36:35</Started>
+    <Ended>10/29/2020 13:36:56</Ended>
+    <Status>Pass</Status>
+  </Result>
+  <Result>
+    <TestScenario>Login</TestScenario>
+    <TestName>Login</TestName>
+    <Started>10/29/2020 13:39:03</Started>
+    <Ended>10/29/2020 13:39:16</Ended>
+    <Status>Pass</Status>
+  </Result>
+  <Result>
+    <TestScenario>Add site Manager</TestScenario>
+    <TestName>AddSiteManager</TestName>
+    <Started>10/29/2020 13:39:43</Started>
+    <Ended>10/29/2020 13:39:58</Ended>
+    <Status>Failed</Status>
+  </Result>
+  <Result>
+    <TestScenario>Login</TestScenario>
+    <TestName>Login - SystemUser</TestName>
+    <Started>10/29/2020 13:40:31</Started>
+    <Ended>10/29/2020 13:40:48</Ended>
+    <Status>Pass</Status>
+  </Result>
+  <Result>
+    <TestScenario>Verify the Site Management Module For HOA</TestScenario>
+    <TestName>VrifyHoADefaultModule</TestName>
+    <Started>10/29/2020 13:40:48</Started>
+    <Ended>10/29/2020 13:40:50</Ended>
+    <Status>Passed</Status>
+  </Result>
+  <Result>
+    <TestScenario>Verify the User management Module For HOA</TestScenario>
+    <TestName>VrifyHoADefaultModule</TestName>
+    <Started>10/29/2020 13:40:51</Started>
+    <Ended>10/29/2020 13:40:52</Ended>
+    <Status>Passed</Status>
+  </Result>
+  <Result>
+    <TestScenario>Verify the White-List Management Module For HOA</TestScenario>
+    <TestName>VrifyHoADefaultModule</TestName>
+    <Started>10/29/2020 13:40:53</Started>
+    <Ended>10/29/2020 13:40:54</Ended>
+    <Status>Passed</Status>
+  </Result>
+  <Result>
+    <TestScenario>Verify the Data Sharing Module For HOA</TestScenario>
+    <TestName>VrifyHoADefaultModule</TestName>
+    <Started>10/29/2020 13:40:56</Started>
+    <Ended>10/29/2020 13:40:56</Ended>
+    <Status>Passed</Status>
+  </Result>
+  <Result>
+    <TestScenario>Verify the License Plate Query Module For HOA</TestScenario>
+    <TestName>VrifyHoADefaultModule</TestName>
+    <Started>10/29/2020 13:40:59</Started>
+    <Ended>10/29/2020 13:41:03</Ended>
+    <Status>Passed</Status>
+  </Result>
+  <Result>
+    <TestScenario>Login</TestScenario>
+    <TestName>Login - SystemUser</TestName>
+    <Started>10/29/2020 13:41:36</Started>
+    <Ended>10/29/2020 13:41:49</Ended>
+    <Status>Pass</Status>
+  </Result>
+  <Result>
+    <TestScenario>Verify User level</TestScenario>
+    <TestName>Verify User level</TestName>
+    <Started>10/29/2020 13:41:49</Started>
+    <Ended>10/29/2020 13:42:11</Ended>
+    <Status>Pass</Status>
+  </Result>
+  <Result>
+    <TestScenario>Dash board verification</TestScenario>
+    <TestName>VerifyDashBoard</TestName>
+    <Started>10/29/2020 13:42:12</Started>
+    <Ended>10/29/2020 13:42:43</Ended>
+    <Status>Failed</Status>
+  </Result>
+  <Result>
+    <TestScenario>Login</TestScenario>
+    <TestName>Login</TestName>
+    <Started>10/29/2020 13:48:39</Started>
+    <Ended>10/29/2020 13:48:53</Ended>
+    <Status>Pass</Status>
+  </Result>
+  <Result>
+    <TestScenario>Add site Manager</TestScenario>
+    <TestName>AddSiteManager</TestName>
+    <Started>10/29/2020 13:49:20</Started>
+    <Ended>10/29/2020 13:49:35</Ended>
+    <Status>Failed</Status>
+  </Result>
+  <Result>
+    <TestScenario>Login</TestScenario>
+    <TestName>Login - SystemUser</TestName>
+    <Started>10/29/2020 13:50:08</Started>
+    <Ended>10/29/2020 13:50:20</Ended>
+    <Status>Pass</Status>
+  </Result>
+  <Result>
+    <TestScenario>Verify the Site Management Module For HOA</TestScenario>
+    <TestName>VrifyHoADefaultModule</TestName>
+    <Started>10/29/2020 13:50:20</Started>
+    <Ended>10/29/2020 13:50:21</Ended>
+    <Status>Passed</Status>
+  </Result>
+  <Result>
+    <TestScenario>Verify the User management Module For HOA</TestScenario>
+    <TestName>VrifyHoADefaultModule</TestName>
+    <Started>10/29/2020 13:50:23</Started>
+    <Ended>10/29/2020 13:50:24</Ended>
+    <Status>Passed</Status>
+  </Result>
+  <Result>
+    <TestScenario>Verify the White-List Management Module For HOA</TestScenario>
+    <TestName>VrifyHoADefaultModule</TestName>
+    <Started>10/29/2020 13:50:25</Started>
+    <Ended>10/29/2020 13:50:26</Ended>
+    <Status>Passed</Status>
+  </Result>
+  <Result>
+    <TestScenario>Verify the Data Sharing Module For HOA</TestScenario>
+    <TestName>VrifyHoADefaultModule</TestName>
+    <Started>10/29/2020 13:50:27</Started>
+    <Ended>10/29/2020 13:50:28</Ended>
+    <Status>Passed</Status>
+  </Result>
+  <Result>
+    <TestScenario>Verify the License Plate Query Module For HOA</TestScenario>
+    <TestName>VrifyHoADefaultModule</TestName>
+    <Started>10/29/2020 13:50:30</Started>
+    <Ended>10/29/2020 13:50:37</Ended>
+    <Status>Passed</Status>
+  </Result>
+  <Result>
+    <TestScenario>Login</TestScenario>
+    <TestName>Login - SystemUser</TestName>
+    <Started>10/29/2020 13:51:10</Started>
+    <Ended>10/29/2020 13:51:19</Ended>
+    <Status>Pass</Status>
+  </Result>
+  <Result>
+    <TestScenario>Verify User level</TestScenario>
+    <TestName>Verify User level</TestName>
+    <Started>10/29/2020 13:51:20</Started>
+    <Ended>10/29/2020 13:51:21</Ended>
+    <Status>Pass</Status>
+  </Result>
+  <Result>
+    <TestScenario>Dash board verification</TestScenario>
+    <TestName>VerifyDashBoard</TestName>
+    <Started>10/29/2020 13:51:22</Started>
+    <Ended>10/29/2020 13:51:26</Ended>
+    <Status>Passed</Status>
+  </Result>
+  <Result>
+    <TestScenario>Login</TestScenario>
+    <TestName>Login</TestName>
+    <Started>10/29/2020 13:56:31</Started>
+    <Ended>10/29/2020 13:56:52</Ended>
+    <Status>Pass</Status>
+  </Result>
+  <Result>
+    <TestScenario>Add site Manager</TestScenario>
+    <TestName>AddSiteManager</TestName>
+    <Started>10/29/2020 13:57:19</Started>
+    <Ended>10/29/2020 13:57:34</Ended>
+    <Status>Failed</Status>
+  </Result>
+  <Result>
+    <TestScenario>Login</TestScenario>
+    <TestName>Login</TestName>
+    <Started>10/29/2020 13:59:18</Started>
+    <Ended>10/29/2020 13:59:32</Ended>
+    <Status>Pass</Status>
+  </Result>
+  <Result>
+    <TestScenario>Add site Manager</TestScenario>
+    <TestName>AddSiteManager</TestName>
+    <Started>10/29/2020 13:59:59</Started>
+    <Ended>10/29/2020 14:00:14</Ended>
+    <Status>Failed</Status>
+  </Result>
+  <Result>
+    <TestScenario>Login</TestScenario>
+    <TestName>Login</TestName>
+    <Started>10/29/2020 14:03:13</Started>
+    <Ended>10/29/2020 14:03:28</Ended>
+    <Status>Pass</Status>
+  </Result>
+  <Result>
+    <TestScenario>Add site Manager</TestScenario>
+    <TestName>AddSiteManager</TestName>
+    <Started>10/29/2020 14:03:55</Started>
+    <Ended>10/29/2020 14:04:11</Ended>
+    <Status>Failed</Status>
+  </Result>
+  <Result>
+    <TestScenario>Login</TestScenario>
+    <TestName>Login - SystemUser</TestName>
+    <Started>10/29/2020 14:05:18</Started>
+    <Ended>10/29/2020 14:05:29</Ended>
+    <Status>Pass</Status>
+  </Result>
+  <Result>
+    <TestScenario>Verify the Site Management Module For HOA</TestScenario>
+    <TestName>VrifyHoADefaultModule</TestName>
+    <Started>10/29/2020 14:05:30</Started>
+    <Ended>10/29/2020 14:05:32</Ended>
+    <Status>Passed</Status>
+  </Result>
+  <Result>
+    <TestScenario>Verify the User management Module For HOA</TestScenario>
+    <TestName>VrifyHoADefaultModule</TestName>
+    <Started>10/29/2020 14:05:33</Started>
+    <Ended>10/29/2020 14:05:34</Ended>
+    <Status>Passed</Status>
+  </Result>
+  <Result>
+    <TestScenario>Verify the White-List Management Module For HOA</TestScenario>
+    <TestName>VrifyHoADefaultModule</TestName>
+    <Started>10/29/2020 14:05:35</Started>
+    <Ended>10/29/2020 14:05:36</Ended>
+    <Status>Passed</Status>
+  </Result>
+  <Result>
+    <TestScenario>Verify the Data Sharing Module For HOA</TestScenario>
+    <TestName>VrifyHoADefaultModule</TestName>
+    <Started>10/29/2020 14:05:37</Started>
+    <Ended>10/29/2020 14:05:38</Ended>
+    <Status>Passed</Status>
+  </Result>
+  <Result>
+    <TestScenario>Verify the License Plate Query Module For HOA</TestScenario>
+    <TestName>VrifyHoADefaultModule</TestName>
+    <Started>10/29/2020 14:05:40</Started>
+    <Ended>10/29/2020 14:05:44</Ended>
+    <Status>Passed</Status>
+  </Result>
+  <Result>
+    <TestScenario>Login</TestScenario>
+    <TestName>Login - SystemUser</TestName>
+    <Started>10/29/2020 14:06:17</Started>
+    <Ended>10/29/2020 14:06:29</Ended>
+    <Status>Pass</Status>
+  </Result>
+  <Result>
+    <TestScenario>Verify User level</TestScenario>
+    <TestName>Verify User level</TestName>
+    <Started>10/29/2020 14:06:30</Started>
+    <Ended>10/29/2020 14:06:32</Ended>
+    <Status>Pass</Status>
+  </Result>
+  <Result>
+    <TestScenario>Dash board verification</TestScenario>
+    <TestName>VerifyDashBoard</TestName>
+    <Started>10/29/2020 14:06:33</Started>
+    <Ended>10/29/2020 14:06:36</Ended>
+    <Status>Passed</Status>
+  </Result>
+  <Result>
+    <TestScenario>Login</TestScenario>
+    <TestName>Login</TestName>
+    <Started>10/29/2020 14:09:25</Started>
+    <Ended>10/29/2020 14:09:39</Ended>
+    <Status>Pass</Status>
+  </Result>
+  <Result>
+    <TestScenario>Add site Manager</TestScenario>
+    <TestName>AddSiteManager</TestName>
+    <Started>10/29/2020 14:10:05</Started>
+    <Ended>10/29/2020 14:10:19</Ended>
+    <Status>Failed</Status>
+  </Result>
+  <Result>
+    <TestScenario>Login</TestScenario>
+    <TestName>Login - SystemUser</TestName>
+    <Started>10/29/2020 14:11:26</Started>
+    <Ended>10/29/2020 14:11:35</Ended>
+    <Status>Pass</Status>
+  </Result>
+  <Result>
+    <TestScenario>Verify the Site Management Module For HOA</TestScenario>
+    <TestName>VrifyHoADefaultModule</TestName>
+    <Started>10/29/2020 14:11:36</Started>
+    <Ended>10/29/2020 14:11:38</Ended>
+    <Status>Passed</Status>
+  </Result>
+  <Result>
+    <TestScenario>Verify the User management Module For HOA</TestScenario>
+    <TestName>VrifyHoADefaultModule</TestName>
+    <Started>10/29/2020 14:11:39</Started>
+    <Ended>10/29/2020 14:11:40</Ended>
+    <Status>Passed</Status>
+  </Result>
+  <Result>
+    <TestScenario>Verify the White-List Management Module For HOA</TestScenario>
+    <TestName>VrifyHoADefaultModule</TestName>
+    <Started>10/29/2020 14:11:41</Started>
+    <Ended>10/29/2020 14:11:42</Ended>
+    <Status>Passed</Status>
+  </Result>
+  <Result>
+    <TestScenario>Verify the Data Sharing Module For HOA</TestScenario>
+    <TestName>VrifyHoADefaultModule</TestName>
+    <Started>10/29/2020 14:11:43</Started>
+    <Ended>10/29/2020 14:11:44</Ended>
+    <Status>Passed</Status>
+  </Result>
+  <Result>
+    <TestScenario>Verify the License Plate Query Module For HOA</TestScenario>
+    <TestName>VrifyHoADefaultModule</TestName>
+    <Started>10/29/2020 14:11:46</Started>
+    <Ended>10/29/2020 14:11:51</Ended>
+    <Status>Passed</Status>
+  </Result>
+  <Result>
+    <TestScenario>Login</TestScenario>
+    <TestName>Login - SystemUser</TestName>
+    <Started>10/29/2020 14:12:24</Started>
+    <Ended>10/29/2020 14:12:33</Ended>
+    <Status>Pass</Status>
+  </Result>
+  <Result>
+    <TestScenario>Verify User level</TestScenario>
+    <TestName>Verify User level</TestName>
+    <Started>10/29/2020 14:12:33</Started>
+    <Ended>10/29/2020 14:12:35</Ended>
+    <Status>Pass</Status>
+  </Result>
+  <Result>
+    <TestScenario>Dash board verification</TestScenario>
+    <TestName>VerifyDashBoard</TestName>
+    <Started>10/29/2020 14:12:36</Started>
+    <Ended>10/29/2020 14:12:38</Ended>
+    <Status>Passed</Status>
   </Result>
 </Test-Suite>
